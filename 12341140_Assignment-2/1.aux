@@ -1,0 +1,142 @@
+\relax 
+\citation{Howard2019}
+\citation{Howard2019}
+\citation{Tan2019}
+\citation{Zoph2017,Liu2018}
+\citation{Zoph2017}
+\citation{Howard2019}
+\citation{Liu2018}
+\citation{Zela2019}
+\citation{Pham2018}
+\citation{Cai2018,Xu2019}
+\citation{Zela2020,Siems2020}
+\citation{Zoph2017}
+\citation{Zela2019,Li2020}
+\citation{Li2020}
+\citation{Pham2018}
+\citation{Zela2020,Zhang2020,Pourchot2020}
+\@writefile{toc}{\contentsline {section}{\numberline {I}INTRODUCTION}{1}{}\protected@file@percent }
+\citation{Liu2018,Wang2021}
+\citation{Howard2019}
+\citation{Liu2018}
+\citation{Wang2021,Zela2019}
+\citation{Liu2018}
+\citation{Liu2018}
+\citation{Liu2018}
+\@writefile{toc}{\contentsline {section}{\numberline {II}PRELIMINARIES}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-A}}Background}{2}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces (a) Differentiable architecture search \cite  {Liu2018} performs a bi-level optimization on a weight-shared supernet to jointly optimize architecture \( \alpha \) and weights \( w \). (b) Expansion of an edge involves placing all operations in \( O \) on that edge. (c) Perturb valuation of an operation strength is performed by masking that operation when measuring the output of mixed operation \( \bar  {o}_{m,e} \) (masked operations represented by blurred lines in inset).}}{2}{}\protected@file@percent }
+\newlabel{fig:architecture_search}{{1}{2}{}{}{}}
+\citation{Liu2018,Xu2019,Xie2018}
+\citation{Liu2018}
+\citation{Liu2018}
+\citation{Liu2018}
+\citation{Cai2018,Xu2019}
+\citation{Cai2018}
+\citation{Xu2019}
+\citation{Xu2019}
+\citation{Wang2021}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-B}}Related Works}{3}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Search Spaces Considered in This Work.}}{3}{}\protected@file@percent }
+\newlabel{tab:search_spaces}{{I}{3}{}{}{}}
+\newlabel{eq:exp}{{1}{3}{}{}{}}
+\newlabel{eq:arg}{{2}{3}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}SEARCH METHOD}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-A}}Perturbations-based Evaluation}{3}{}\protected@file@percent }
+\newlabel{eq:sum}{{3}{3}{}{}{}}
+\citation{Liu2018}
+\citation{Liu2018,Xu2019,Xie2018}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Flowchart of our perturbations-based search. Supernet-based search relies on training a large supernet (light gray) while the evolutionary approach relies on performing operation valuation from within \( n \) discrete models (dark gray) using expansion followed by perturb valuation.}}{4}{}\protected@file@percent }
+\newlabel{fig:flowchart_search}{{2}{4}{}{}{}}
+\newlabel{eq:validation}{{4}{4}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-B}}Search Flow using Supernets}{4}{}\protected@file@percent }
+\citation{Cai2018,Xu2019}
+\citation{Zela2020,Zhang2020,Pourchot2020}
+\citation{Cai2018,Xu2019}
+\citation{Siems2020}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-C}}Disentangling Mem Consumption from Search Space Size}{5}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Heatmaps of valuations and rankings obtained using (a)-(b) averaging architecture accuracies, and (c)-(d) obtaining accuracy of best model. They indicate that the rankings obtained by averaging model accuracies are fairly similar to rankings when best accuracy is selected for each operation choice.}}{5}{}\protected@file@percent }
+\newlabel{fig:heatmaps}{{3}{5}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-D}}From Supernets to Evolutionary Search}{5}{}\protected@file@percent }
+\citation{Liu2018}
+\citation{Wang2021}
+\citation{Cai2018}
+\citation{Zoph2018}
+\citation{Real2019}
+\citation{Pham2018}
+\citation{Liu2018Progressive}
+\citation{Cai2018}
+\citation{Xie2018}
+\citation{Xu2019}
+\citation{Zela2019}
+\citation{Li2020SGAS}
+\citation{Liu2018}
+\citation{Wang2021}
+\citation{Wang2021}
+\citation{Xie2018}
+\citation{Xu2019}
+\citation{Li2020SGAS}
+\citation{Liu2018}
+\citation{Wang2021}
+\citation{Xu2019}
+\citation{Siems2020}
+\citation{Liu2018}
+\citation{Xu2019}
+\citation{Wang2021}
+\citation{Zela2020,Siems2020}
+\citation{Siems2020}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Best cells obtained using (a) supernet and (b) evolutionary approach with CIFAR10 error rates of 2.65\% and 2.49\%, respectively.}}{6}{}\protected@file@percent }
+\newlabel{fig:best_cells}{{4}{6}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}EXPERIMENTS AND ABLATION STUDIES}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-A}}CIFAR10 – Full Search}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-A}1}Experimental Setup}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-A}2}Evaluation}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-B}}NASBench-301}{6}{}\protected@file@percent }
+\citation{Liu2018,Wang2021}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Performance Comparison against the State-of-the-Art on CIFAR10 and ImageNet2012}}{7}{}\protected@file@percent }
+\newlabel{comparison_1}{{II}{7}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Performance Comparison on NASBENCH-301, and the GPU-Memory Consumption for Search on CIFAR10}}{7}{}\protected@file@percent }
+\newlabel{comparison_2}{{III}{7}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-C}}Transferability Evaluation on ImageNet}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-D}}Importance of Search-Space and Memory Scalability}{7}{}\protected@file@percent }
+\citation{Liu2018}
+\citation{Wang2021}
+\citation{Siems2020}
+\citation{Siems2020}
+\citation{Wang2021}
+\citation{Liu2018}
+\citation{Wang2021}
+\citation{Liu2018}
+\citation{Wang2021}
+\citation{Duplyakin2019}
+\bibstyle{IEEEtran}
+\bibdata{1}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Bar chart of GPU-memory consumption for search on search spaces of different sizes. Also shown is the average accuracy of 10k randomly chosen models in the search spaces (s3=sep conv 3x3, d3=dil conv 3x3). The notation +s3 indicates that the search space size is increased by adding a sep conv 3x3 operation to the preceding O.}}{8}{}\protected@file@percent }
+\newlabel{fig:gpu_memory_consumption}{{5}{8}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-E}}Ablation 1 – Fidelity of Perturbations for Operation Search}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-F}}Ablation 2 – Fidelity of Perturbations for Topology Search}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {V}CONCLUSION}{8}{}\protected@file@percent }
+\bibcite{Howard2019}{1}
+\bibcite{Tan2019}{2}
+\bibcite{Zoph2017}{3}
+\bibcite{Liu2018}{4}
+\bibcite{Zela2019}{5}
+\bibcite{Pham2018}{6}
+\bibcite{Cai2018}{7}
+\bibcite{Xu2019}{8}
+\bibcite{Zela2020}{9}
+\bibcite{Siems2020}{10}
+\bibcite{Li2020}{11}
+\bibcite{Zhang2020}{12}
+\bibcite{Pourchot2020}{13}
+\bibcite{Wang2021}{14}
+\bibcite{Xie2018}{15}
+\bibcite{Zoph2018}{16}
+\bibcite{Real2019}{17}
+\bibcite{Liu2018Progressive}{18}
+\bibcite{Li2020SGAS}{19}
+\bibcite{Duplyakin2019}{20}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Comparison of results from operation and topology searches on CIFAR-10 using NASBench-301 against DARTS \cite  {Liu2018} and DARTS+PT \cite  {Wang2021}. (a) Operation Search Space O1 with 65.5k models. (b) Topology Search Space O2 with only 180 models, plotted against cell depth. The hue represents training time.}}{9}{}\protected@file@percent }
+\newlabel{fig:search_comparison}{{6}{9}{}{}{}}
+\@writefile{toc}{\contentsline {section}{References}{9}{}\protected@file@percent }
+\gdef \@abspage@last{9}
