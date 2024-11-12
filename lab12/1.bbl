@@ -1,0 +1,22 @@
+\begin{thebibliography}{1}
+
+\bibitem{ibm2020quantum}
+Ibm quantum experience.
+\newblock \url{https://quantum-computing.ibm.com/}, Accessed April 2,2020.
+
+\bibitem{das2019case}
+P.~Das et~al.
+\newblock A case for multi-programming quantum computers.
+\newblock In {\em Micro}, 2019.
+
+\bibitem{li2019tackling}
+G.~Li et~al.
+\newblock Tackling the qubit mapping problem for nisq-era quantum devices.
+\newblock In {\em ASPLOS}, 2019.
+
+\bibitem{preskill2018quantum}
+J.~Preskill.
+\newblock Quantum computing in the nisq era and beyond.
+\newblock {\em Quantum}, 2:79, 2018.
+
+\end{thebibliography}
