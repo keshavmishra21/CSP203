@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+
+\bibitem{10.1145/1150402.1150479}
+Jure Leskovec and Christos Faloutsos.
+\newblock Sampling from large graphs.
+\newblock In {\em Proceedings of the 12th ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, KDD '06, page 631–636, New York,
+  NY, USA, 2006. Association for Computing Machinery.
+
+\bibitem{10.1145/3219819.3219890}
+Rex Ying, Ruining He, Kaifeng Chen, Pong Eksombatchai, William~L. Hamilton, and
+  Jure Leskovec.
+\newblock Graph convolutional neural networks for web-scale recommender
+  systems.
+\newblock In {\em Proceedings of the 24th ACM SIGKDD International Conference
+  on Knowledge Discovery \& Data Mining}, KDD '18, page 974–983, New York,
+  NY, USA, 2018. Association for Computing Machinery.
+
+\end{thebibliography}
