@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+<h2>Registration Form</h2>
+<form action="process.php" method="POST" enctype="multipart/form-data">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email Id:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="Male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="Female" required>
+    <label for="female">Female</label><br><br>
+
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="4" cols="50" required></textarea><br><br>
+
+    <label for="country">Country:</label>
+    <select id="country" name="country" required>
+        <option value="USA">USA</option>
+        <option value="Canada">Canada</option>
+        <option value="UK">UK</option>
+        <option value="Australia">Australia</option>
+        <option value="India">India</option>
+        <option value="Germany">Germany</option>
+        <option value="France">France</option>
+        <option value="Japan">Japan</option>
+        <option value="China">China</option>
+        <option value="Brazil">Brazil</option>
+    </select><br><br>
+
+    <label>Education Details:</label><br>
+    <div id="education">
+        <div>
+            <label for="degree1">Degree:</label>
+            <input type="text" id="degree1" name="education[0][degree]" placeholder="e.g., SSC" required>
+            <label for="specialisation1">Specialisation:</label>
+            <input type="text" id="specialisation1" name="education[0][specialisation]" required>
+            <label for="year1">Academic Year:</label>
+            <input type="text" id="year1" name="education[0][year]" required>
+            <label for="percentage1">Percentage:</label>
+            <input type="text" id="percentage1" name="education[0][percentage]" required>
+        </div>
+    </div><br>
+
+    <label>Hobbies:</label><br>
+    <input type="checkbox" id="reading" name="hobbies[]" value="Reading">
+    <label for="reading">Reading</label>
+    <input type="checkbox" id="traveling" name="hobbies[]" value="Traveling">
+    <label for="traveling">Traveling</label>
+    <input type="checkbox" id="gaming" name="hobbies[]" value="Gaming">
+    <label for="gaming">Gaming</label>
+    <input type="checkbox" id="sports" name="hobbies[]" value="Sports">
+    <label for="sports">Sports</label>
+    <input type="checkbox" id="music" name="hobbies[]" value="Music">
+    <label for="music">Music</label><br><br>
+
+    <label for="photo">Upload Photo:</label>
+    <input type="file" id="photo" name="photo" accept="image/*" required><br><br>
+
+    <label for="signature">Upload Signature:</label>
+    <input type="file" id="signature" name="signature" accept="image/*" required><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
+

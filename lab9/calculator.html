@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+<h2>Simple Calculator</h2>
+<form action="calculate.php" method="GET">
+    <label for="operand1">Operand 1:</label>
+    <input type="number" id="operand1" name="operand1" required><br><br>
+
+    <label for="operand2">Operand 2:</label>
+    <input type="number" id="operand2" name="operand2" required><br><br>
+
+    <label for="operator">Operator:</label>
+    <select id="operator" name="operator" required>
+        <option value="ADD">ADD</option>
+        <option value="SUB">SUB</option>
+        <option value="MUL">MUL</option>
+    </select><br><br>
+    
+    <input type="submit" value="Calculate">
+</form>
+</body>
+</html>
+
