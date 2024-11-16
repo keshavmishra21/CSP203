@@ -1,0 +1,52 @@
+Question 1
+Answer:
+Terminal command to compile the fib.c program: gcc -o fib fib.c
+Terminal command to run the C program's executable: ./fib 11
+Output for the test case 11: 55
+
+Question 2
+Answer:
+grep -oE '\b(char|int|unsigned|main|void|switch|case|return|if|else|while|for|do|continue|break|sizeof|typedef|static|extern|struct|union|const|volatile|goto|default|enum|float|double|long|short|signed|unsigned)\b' fib.c
+
+To get a alphabetically sorted and every keyword almost once, we can first sort command and then use uniq command using pipelines in the following way:
+grep -oE '\b(char|int|unsigned|main|void|switch|case|return|if|else|while|for|do|continue|break|sizeof|typedef|static|extern|struct|union|const|volatile|goto|default|enum|float|double|long|short|signed|unsigned)\b' fib.c | sort |uniq
+
+Question 3
+Answer:
+head -n 15 fib.c | grep -o '{' | wc -l
+
+Question 4
+Answer:
+ls -S /usr/bin | grep '^a' | head -n 3
+
+Question 5
+Answer:
+cat *.txt > merge.txt
+
+Question 6:
+Answer:
+head -n 20 filename | tail -n 6
+
+Question 7
+Answer:
+ps -ef | grep -i pr
+
+Question 8
+Answer:
+Terminal command to run the Script: ./fib.sh 11 (11 is a test case)
+Output of the test case 11: 55
+
+Question 9
+Answer:
+Terminal command to run the Script: ./Q9.sh fib.c (fib.c is the C program file)
+Output for fib.c file:
+int: 3
+char: 1
+float: 0
+double: 0
+unsigned: 0
+for: 1
+if: 2
+else: 2
+while: 0
+switch: 0
