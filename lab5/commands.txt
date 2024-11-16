@@ -1,0 +1,25 @@
+Question 1
+Answer:
+Files are file1.csv file2.csv file3.csv
+Commands: ./script1.sh "string"
+
+Question 2
+Answer:
+Files are CSP100.txt CSP101.txt CSP102.txt
+Command 1: ./script2a.sh
+Command 2: ./script2b.sh
+Command 3: ./script2c.sh 
+
+Question 3
+Answer:
+Command: ./script3.sh Path_to_directory
+
+Question 4
+Answer:
+Command: ./script4.sh "string1" "string2" Path_to_directory
+
+Question 5
+Answer:
+Command: ./script5.sh
+
+All .sh extension files were made executable using the command: chmod +x filename.sh
