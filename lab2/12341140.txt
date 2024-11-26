@@ -1,0 +1,27 @@
+Question 1
+Answer: date +"%a %b %-d %r %Y"
+
+Question 2
+Answer: 
+(1) grep -o '\S*@\S*' <filename>
+(2) grep -o '\b1234 [0-9]\{4\} [0-9]\{4\} 1562\b' <filename>
+(3) grep "[-/]1982\b" <filename>
+(4) grep -P '\(\d{3}\) \d{3}-\d{4}' <filename> | grep '347'
+
+Question 3
+Answer: du -sh
+
+Question 4
+Answer:
+(1) To check for files that have been modified in last week: find . -type f -mtime -7
+(2) To check for files that have been modified in last 2 hours: find . -type f -mmin -120
+
+Question 5
+Answer: sed -i 's/ /    /g' test.txt
+
+Question 6
+Answer: find . -type f -name 'a*.txt' -exec du -m {} +
+
+Question 9
+Answer: chmod 777 Q8
+        (Q8 is the name of the executable)
