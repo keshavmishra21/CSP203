@@ -1,0 +1,47 @@
+Question 1
+Answer: ls | grep -vE '\.pdf$|\.txt$'
+
+Question 2:
+Answer:
+Command 1: sed -i 's/int /float /g' filename.c
+Command 2: sed -i 's/%d/%f/g' filename.c
+
+Question 3
+Answer: date +"%m-%d-%y"
+
+Question 4
+Answer: du -sh *.pdf *.txt
+
+Question 5
+Answer: grep -oE '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' file.txt
+
+Question 6
+Answer: 
+Command 1: sed -n '15,25p' file.txt
+Command 2: head -n 25 file.txt | tail -n +15
+
+Question 7
+Answer: sed -n '5,10p' 1.c | grep 'int '
+
+Question 8
+Answer a: 
+grep '^12345678,' CSP203.txt | cut -d',' -f2
+12345678 is the roll number of the student which can be replaced by the roll number of any other student.
+
+Answer b:
+sort -t ',' -k1,1n CSP203.txt
+
+Answer c:
+uniq CSP203.txt
+
+Answer d:
+Command 1: sort CSP203.txt | uniq
+Command 2: sort -u CSP203.txt
+
+Answer e: 
+grep ', A' CSP203.txt | wc -l
+
+Question 9
+Answer: 
+Command to zip  : zip -r 12341140.zip 12341140
+Command to unzip: unzip 12341140.zip
