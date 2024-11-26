@@ -1,0 +1,60 @@
+Question 1
+Answer:
+cd Desktop
+mkdir 12341140
+
+Question 2
+Answer:
+cd 12341140
+touch Grade.c
+
+Question 3
+Answer:
+gedit Grade.c
+
+Question 4
+Answer:
+gcc -o Grade Grade.c
+./Grade
+Input: A
+Output: Your performance is excellent
+
+
+Question 5
+Answer:
+wc -w Grade.c
+Output: 
+52 Grade.c
+
+Question 6
+Answer:
+grep -n "You" Grade.c
+Output: 
+7:printf("Your performance is excellent");
+10:printf("Your performance is good");
+13:printf("Your performance is fair");
+16:printf("Your performance is poor");
+19:printf("Your grade is not complete");
+22:printf("Your are failed");
+
+Question 7
+Answer:
+grep -o '{' Grade.c | wc -l
+Output:
+8
+
+Question 8
+Input: Grade.c
+Output: 29 52 450 Grade.c
+
+Question 9
+Input:
+You
+Grade.c
+Output:
+7: printf("Your performance is excellent");
+10: printf("Your performance is good");
+13: printf("Your performance is fair");
+16: printf("Your performance is poor");
+19: printf("Your grade is not complete");
+22: printf("Your are failed");
