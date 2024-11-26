@@ -1,0 +1,44 @@
+\begin{thebibliography}{1}
+
+\bibitem{ref4}
+A.~Bakhoda, G.~L. Yuan, W.~W. Fung, H.~Wong, and T.~M. Aamodt.
+\newblock Analyzing cuda workloads using a detailed gpu simulator.
+\newblock In {\em 2009 IEEE International Symposium on Performance Analysis of
+  Systems and Software}, pages 163--174. IEEE, 2009.
+
+\bibitem{ref5}
+NVIDIA Corporation.
+\newblock Gtx 980: Featuring maxwell, the most advanced gpu ever made.
+\newblock White paper, NVIDIA Corporation, 2014.
+
+\bibitem{ref2}
+M.~Gao, J.~Pu, X.~Yang, M.~Horowitz, and C.~Kozyrakis.
+\newblock Tetris: Scalable and efficient neural network acceleration with 3d
+  memory.
+\newblock In {\em ACM SIGARCH Computer Architecture News}, volume~45, pages
+  751--764. ACM, 2017.
+
+\bibitem{ref7}
+S.~Grauer-Gray, L.~Xu, R.~Searles, S.~Ayalasomayajula, and J.~Cavazos.
+\newblock Auto-tuning a high-level language targeted to gpu codes.
+\newblock In {\em 2012 Innovative Parallel Computing (InPar)}, pages 1--10.
+  IEEE, 2012.
+
+\bibitem{ref6}
+NVIDIA.
+\newblock Nvidia cuda sdk 4.2, 2011.
+
+\bibitem{ref1}
+I.~K. Park, N.~Singhal, M.~H. Lee, S.~Cho, and C.~Kim.
+\newblock Design and performance evaluation of image processing algorithms on
+  gpus.
+\newblock {\em IEEE Transactions on Parallel and Distributed Systems},
+  22(1):91--104, 2011.
+
+\bibitem{ref3}
+C.~Xie, S.~L. Song, J.~Wang, W.~Zhang, and X.~Fu.
+\newblock Processing-in-memory enabled graphics processors for 3d rendering.
+\newblock In {\em 2017 IEEE International Symposium on High Performance
+  Computer Architecture (HPCA)}, pages 637--648. IEEE, 2017.
+
+\end{thebibliography}
